@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Services.Logger", "Korn.Services.Logger\Korn.Services.Logger.csproj", "{46D79B48-9A1D-4C74-A0D6-8D0FBAD56C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Korn", "Korn", "{DD9AA8EF-0C8F-4743-AA5A-66EAFB020538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Core", "..\Korn.Core\Korn.Core\Korn.Core.csproj", "{878CB880-66DA-4331-87EC-B8046E876D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,15 @@ Global
 		{46D79B48-9A1D-4C74-A0D6-8D0FBAD56C86}.Debug|x64.Build.0 = Debug|x64
 		{46D79B48-9A1D-4C74-A0D6-8D0FBAD56C86}.Release|x64.ActiveCfg = Release|x64
 		{46D79B48-9A1D-4C74-A0D6-8D0FBAD56C86}.Release|x64.Build.0 = Release|x64
+		{878CB880-66DA-4331-87EC-B8046E876D6F}.Debug|x64.ActiveCfg = Debug|x64
+		{878CB880-66DA-4331-87EC-B8046E876D6F}.Debug|x64.Build.0 = Debug|x64
+		{878CB880-66DA-4331-87EC-B8046E876D6F}.Release|x64.ActiveCfg = Release|x64
+		{878CB880-66DA-4331-87EC-B8046E876D6F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{878CB880-66DA-4331-87EC-B8046E876D6F} = {DD9AA8EF-0C8F-4743-AA5A-66EAFB020538}
 	EndGlobalSection
 EndGlobal
